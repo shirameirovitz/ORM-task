@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Order.init(
     {
-      customerName: DataTypes.STRING,
+      customer_name: DataTypes.STRING,
       address: DataTypes.STRING,
       comment: DataTypes.STRING,
     },
